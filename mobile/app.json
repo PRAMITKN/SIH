@@ -1,25 +1,10 @@
 {
   "expo": {
-    "name": "CitizenApp",
-    "slug": "citizen-app",
+    "name": "sih-civic-report",
+    "slug": "sih-civic-report",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
+    "sdkVersion": "48.0.0",
     "platforms": ["ios", "android", "web"],
-    "web": {
-      "bundler": "metro",
-      "favicon": "./assets/favicon.png"
-    },
-    "android": {
-      "package": "com.sih.citizenapp"
-    },
-    "ios": {
-      "supportsTablet": true
-    }
+    "assetBundlePatterns": ["**/*"]
   }
 }
