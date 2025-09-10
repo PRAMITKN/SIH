@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "CitizenApp",
+    "slug": "citizen-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android", "web"],
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.sih.citizenapp"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
