@@ -1,0 +1,9 @@
+{
+  "name": "sih-project",
+  "private": true,
+  "workspaces": [
+    "mobile",
+    "admin",
+    "backend"
+  ]
+}
